@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA["ReplaceUnit"
+{
+	"UnitName"				"${1:npc_dota_quintinity_boss}"
+	"Target" 				${2:TARGETKEY}
+}
+]]></content>
+	<tabTrigger>ReplaceUnit</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Replace target unit with a different unit</description>
+</snippet>
+
+

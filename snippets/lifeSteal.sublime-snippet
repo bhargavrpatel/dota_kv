@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA["LifeSteal"
+{
+	"Target" ${1:TARGETKEY}
+	"LifestealPercent"	"${2:0.5}"
+}
+]]></content>
+	<tabTrigger>LifeSteal</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>LifeSteal from target</description>
+</snippet>
+
+

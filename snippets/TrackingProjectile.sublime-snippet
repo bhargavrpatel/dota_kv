@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA["TrackingProjectile"
+{
+	"Dodgeable"			"${1:true}"
+	"ProvidesVision"	"${2:true}"
+	"VisionRadius"		"${3:300}"
+	"EffectName"		"${4:effect_name}"
+	"MoveSpeed"			"${4:400}"
+	//projectile eminates from here
+	"SourceAttachment"	${5:[ATTACH TYPE]}    // You can use "projectileAttach" triggered snippets here
+}
+]]></content>
+	<tabTrigger>TrackingProjectile</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Create a TrackingProjectile</description>
+</snippet>

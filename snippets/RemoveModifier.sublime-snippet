@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA["RemoveModifier"
+{
+	"Target" 			${1:TARGETKEY}
+	"ModifierName"		"${2:modifier_name}"
+}
+]]></content>
+	<tabTrigger>RemoveModifier</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Remove a modifier from target</description>
+</snippet>
+
+

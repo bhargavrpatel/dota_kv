@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA["Random"
+{
+	"Chance"	"${1:.50}"
+	"PseudeoRandom"		"${2:DOTA_PSEUDO_RANDOM_JUGG_CRIT}"
+	"OnSuccess"
+	{
+		${3:[ACTIONS]}
+	}
+	"OnFailure"
+	{
+		${4:[ACTIONS]}
+	}
+}
+]]></content>
+	<tabTrigger>Random</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Random chance</description>
+</snippet>

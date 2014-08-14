@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["ApplyModifier"
+{
+	"Target" 			${1:TARGETKEY}
+	"ModifierName"		"${2:modifier_name}"
+}
+]]></content>
+	<tabTrigger>ApplyModifier</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Apply a modifier to target</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["MoveUnit"
+{
+	"Target" ${1:TARGETKEY}
+	"Target" ${2:TARGETKEY}
+}
+]]></content>
+	<tabTrigger>MoveUnit</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Move Unit</description>
+</snippet>

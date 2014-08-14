@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA["FireSound"
+{
+	"EffectName"		"${1:Tower.Fire.Attack}"
+	"Target" ${2:TARGETKEY}
+}
+]]></content>
+	<tabTrigger>FireSound</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Fire a audible effect</description>
+</snippet>
+
+

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA["FireEffect"
+{
+	"EffectName"		"${1:}"
+	"EffectAttachType" ${2:ATTACH TYPE}
+	"Target" ${3:TARGET KEY}
+}
+]]></content>
+	<tabTrigger>FireEffect</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Fire a visual effect</description>
+</snippet>
+
+

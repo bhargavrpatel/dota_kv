@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA["Knockback"
+{
+	"Target" ${1:TARGETKEY}
+	"Center" ${2:TARGETKEY}
+	"Distance"	"${3:100}"
+	"Height"	"${4:100}"
+	"Duration"	"${5:10}"
+}
+]]></content>
+	<tabTrigger>Knockback</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description></description>
+</snippet>
+
+

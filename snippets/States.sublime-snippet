@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["States"
+{
+	// You can add multiple modifiers here. Also, the "modifierState" triggered snippets can be used here for ease.
+	${1:MODIFIER_STATE_MUTED}				${2:MODIFIER_VALUE}
+}
+]]></content>
+	<tabTrigger>States</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Apply Modifier States</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA["SpawnUnit"
+{
+	"UnitName"				"${1:npc_dota_bhargav_boss}"
+	"Target" 				${2:TARGETKEY}
+	"Duration"				"${3:20}"
+	"UnitCount"				"${4:4}"
+	"OnSpawn"
+	{
+		${5:[ACTIONS]}
+	}
+}
+]]></content>
+	<tabTrigger>SpawnUnit</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Spawn a new unit</description>
+</snippet>
+
+

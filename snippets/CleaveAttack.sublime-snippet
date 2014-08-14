@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA["CleaveAttack"
+{
+	"CleavePercent"				"${1:50}"
+	"CleaveRadius"				"${2:1000}"
+	"CleaveEffect"				"${3:}"
+}
+]]></content>
+	<tabTrigger>CleaveAttack</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Replicate Cleave Effect</description>
+</snippet>

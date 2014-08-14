@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA["LinearProjectile"
+{
+	"EffectName"				"${1:}"
+	"MoveSpeed"					"${2:}"
+	"StartRadius"				"${3:}"
+	"TargetTypes"				"${4:}"    // You can use the constant snippets here...
+	"TargetFlags"				"${5:}"						
+	"TargetTeams"				"${6:}"
+}
+]]></content>
+	<tabTrigger>LinearProjectile</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Create a LinearProjectile</description>
+</snippet>
