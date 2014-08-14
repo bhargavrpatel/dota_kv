@@ -61,16 +61,15 @@ Supported Functions so far. They are all that are listed on [Hex6's website](hex
 
 ### Completions for Constants
 There are above 1400 constants that I have added. I will not list them here, you can simply open *constants.sublime-completions* in Sublime Text to see them. Unlike snippets, **constants are case agnostic**. First letter not need be capital.
-
+![Constants V1.0.0 Demo](http://giant.gfycat.com/AgreeableUnselfishAztecant.gif)
 #### Methods of using Constants
 1. You can start typing words which you can think of and press **Cntrl + Space** to see a list. 
 2. Type a completion as best you can and simply press TAB. You can then iterate over the completion by pressing TAB. 
-![Constants V1.0.0 Demo](http://giant.gfycat.com/AgreeableUnselfishAztecant.gif)
 
  Here is a list which states them by category. 
 
 | Category  | Trigger*  | Example |
-| :------------ |:---------------:| -----:|
+| :------------ |:---------------|:-----|
 | Ability Types | abilityType        |    DOTA_ABILITY_TYPE_BASIC |
 | Ability Behaviors | abilityBehavior        |    DOTA_ABILITY_BEHAVIOR_AOE |
 | Modifier Names      | modifierName | modifier_slark_essence_shift_debuff |
