@@ -1,7 +1,7 @@
 #Dota 2 KV Package
 Unlike my [Lua Snippets](https://github.com/bhargavrpatel/Dota-2-Sublime-Packages) project, this is a *Package*. The package consists of custom syntax highlighting and Snippets. The Snippets consist of all the KV pairs, modifiers, and constants. 
 
-### Installation
+## Installation
 Chose either of the methods listed below. I suggest everyone use **Method 1**
 #### Method 1
 I have uploaded the mod as a submission to Sublime Package Control. This means when I update the package, it will update on your system automatically.
