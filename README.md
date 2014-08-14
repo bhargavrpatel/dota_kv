@@ -6,12 +6,14 @@ Chose either of the methods listed below. I suggest everyone use **Method 1**
 #### Method 1
 I have uploaded the mod as a submission to Sublime Package Control. This means when I update the package, it will update on your system automatically.
 The ideal method is as follows:
+
 1. Install [Sublime Package Control ](https://sublime.wbond.net/installation)
 2. Open Command Pallet (CNTRL+SHIFT+P), type "Install Package" then press Enter.
 3. Once the list of packages has been cached, type "Dota KV" then press Enter.
 
 #### Method 2
 If you do not wish to install via Sublime Package Control, your version of the package will not be automatically updated when I update. The steps are as follows.
+
 1. Download repo as a zip file. 
 2. Extract all the files into a folder called "Dota KV"
 3. In Sublime text, click on Preferences > Browse Packages. Move the "Dota KV" folder in the explorer instance that pops up.
