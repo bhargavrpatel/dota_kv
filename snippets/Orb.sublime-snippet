@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA["Orb"
+{
+	"Priority"	${1:[ORB PRIORITY]}    // You may find all the possible priorities by using "orbPrio" completions
+	"Label"		${2:[ORB LABEL]}	// You may find all the possible priorities by using "orbLabel" completions
+}
+]]></content>
+	<tabTrigger>Orb</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Orb Modifier</description>
+</snippet>
+
+
+

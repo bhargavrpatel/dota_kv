@@ -1,8 +1,10 @@
 <snippet>
 	<content><![CDATA["States"
 {
-	// You can add multiple modifiers here. Also, the "modifierState" triggered snippets can be used here for ease.
+	${3:// Sub-keys can be found by using "modifierState" constant completions
+	// Sub-values can be found by using "modifierStateValue" constant completions}
 	${1:MODIFIER_STATE_MUTED}				${2:MODIFIER_VALUE}
+	${4:}
 }
 ]]></content>
 	<tabTrigger>States</tabTrigger>

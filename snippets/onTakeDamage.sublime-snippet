@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA["OnTakeDamage"
+{
+	${1:[ACTIONS]}
+}
+]]></content>
+	<tabTrigger>OnTakeDamage</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Do something when damage is taken</description>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA["OnToggleOn"
+{
+	${1:[ACTIONS]}
+}
+]]></content>
+	<tabTrigger>OnToggleOn</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Do something when a toggle ability is toggled on</description>
+</snippet>

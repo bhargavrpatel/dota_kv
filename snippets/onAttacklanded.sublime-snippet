@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA["OnAttackLanded"
+{
+	${1:[ACTIONS]}
+}
+]]></content>
+	<tabTrigger>OnAttackLanded</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Do something when the attack langed</description>
+</snippet>

@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA["Target"
+{
+	"Center"  				"${1:TARGETKEY}""   ${13:// You may use "targetKey" completions here.}
+	"Radius" 				"${2:GLOBAL}","${3:500}"
+	"Line"
+	{
+		"Length" 			"${4:1000}"
+		"Thickness" 			"${5:1000}"
+	}
+	"Teams" 				"${6:DOTA_UNIT_TARGET_TEAM_FRIENDLY}"  ${13:// Available values can be found by "unitTargetTeam" completions }
+	"Types" 				"${7:DOTA_UNIT_TARGET_MECHANICAL}" ${13:// Can add multiple by separating with pipe | }
+	"ExcludeTypes"			"${8:DOTA_UNIT_TARGET_BASIC}"
+	"Flags"					"${9:DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES}"  ${13:// Available values can be found by "unitTargetFlag" completions}
+	"ExcludeFlags"			"${10:DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES}"
+	"MaxTargets"			"${11:10}"
+	"Random"				${12:Int}
+}
+]]></content>
+	<tabTrigger>Target</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Target function</description>
+</snippet>

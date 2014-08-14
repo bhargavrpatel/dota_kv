@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA["OnSpellStart"
+{
+	${1:[ACTIONS]}
+}
+]]></content>
+	<tabTrigger>OnSpellStart</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Do something when the spell starts (usually used to SpawnUnits)</description>
+</snippet>

@@ -2,7 +2,7 @@
 	<content><![CDATA["Random"
 {
 	"Chance"	"${1:.50}"
-	"PseudeoRandom"		"${2:DOTA_PSEUDO_RANDOM_JUGG_CRIT}"
+	"PseudeoRandom"		"${2:DOTA_PSEUDO_RANDOM_JUGG_CRIT}"   ${5:// Use "randomType" completions to see available options}
 	"OnSuccess"
 	{
 		${3:[ACTIONS]}
