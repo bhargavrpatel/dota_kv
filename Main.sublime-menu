@@ -1,0 +1,32 @@
+[
+	{
+		"caption": "Preferences",
+		"mnemonic": "n",
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"mnemonic": "P",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "Dota KV",
+						"children":
+						[
+							{
+								"command": "open_file",
+								"args": {"file": "${packages}/Dota KV/changelog.txt"},
+								"caption": "Change Log"
+							},
+							{ "caption": "-" },
+							{ "caption": "Under construction" },
+							{ "caption": "-" }
+						]
+					}
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,5 @@
+v1.0.1: Comment support
+	- Fixed the issue of Ctrl + / not commenting lines. 
+
+v1.0.0: Finished Hex6s modifier functions
+	- Initial Release

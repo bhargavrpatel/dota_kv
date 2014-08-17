@@ -83,7 +83,6 @@ There are above 1400 constants that I have added. I will not list them here, you
 | Modifier Events | modifierEvent        |    MODIFIER_EVENT_ON_ABILITY_END_CHANNEL |
 | Damage Types | damageType        |    DAMAGE_TYPE_MAGICAL |
 | Particle Attach | PATTACHParticleAttach        |    PATTACH_ABSORIGIN |
-| Particle Attach | PATTACHParticleAttach        |    PATTACH_ABSORIGIN |
 | Item Flags | itemFlag        |    ITEM_FLAG_LIMITINWORLD |
 | Item Types | itemType        |    ITEM_CORE |
 | Item Sharability | sharable        |    ITEM_FULLY_SHAREABLE |
