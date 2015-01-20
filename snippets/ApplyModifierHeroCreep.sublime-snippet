@@ -25,7 +25,7 @@
 }
 
 ]]></content>
-	<tabTrigger>ApplyModifier</tabTrigger>
+	<tabTrigger>ApplyModifierHero-Creep</tabTrigger>
  	<scope>source.txt</scope>
- 	<description>distinct Hero-Creep</description>
+ 	<description>distinct</description>
 </snippet>

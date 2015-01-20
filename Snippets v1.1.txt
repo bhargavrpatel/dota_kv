@@ -1,0 +1,666 @@
+"AbilityBehavior"				"DOTA_ABILITY_BEHAVIOR_UNIT_TARGET"
+"AbilityUnitTargetTeam"			"DOTA_UNIT_TARGET_TEAM_ENEMY"
+"AbilityUnitTargetType"			"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"AbilityUnitDamageType"			"DAMAGE_TYPE_MAGICAL"
+
+"AbilityCastRange"				"700"
+"AbilityCastPoint"				"0.3"
+"AbilityCastAnimation"			"ACT_DOTA_CAST_ABILITY_1"
+
+"AbilityCooldown"				"8.0"
+"AbilityManaCost"				"100"
+"AbilityDamage"					"75 130 200"
+
+"AbilitySpecial"
+{
+	"01"
+	{
+		"var_type"			"FIELD_INTEGER"
+		"value"			"900"
+	}
+	"02"
+	{
+		"var_type"			"FIELD_FLOAT"
+		"duration"		"3.0 4.0 5.0"
+	}
+}
+
+"ActOnTargets"
+{
+	"Target"
+	{
+		"Center"  	"TARGET"
+		"Radius" 	"%radius"
+		"Teams" 	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+	}
+
+	"Action"    
+	{
+		[ACTIONS]
+	}
+}
+
+"AddAbility"
+{
+	"Target" 		"CASTER"
+	"AbilityName"	"%ability_name"
+}
+
+"AllowIllusionDuplicate"     "1"
+
+"ApplyModifier"
+{
+	"ModifierName"	"modifier_name"
+	"Target" 		"TARGET"
+	"Duration"		"%duration"
+}
+
+"ApplyModifier"
+{
+	"ModifierName"	"modifier_name"
+	"Target"
+	{
+		"Center"	"TARGET"
+		"Teams"		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"Types"		"DOTA_UNIT_TARGET_HERO"
+	}
+	"Duration"		"%hero_duration"
+}
+
+"ApplyModifier"
+{
+	"ModifierName"	"modifier_name"
+	"Target"
+	{
+		"Center"	"TARGET"
+		"Teams"		"DOTA_UNIT_TARGET_TEAM_ENEMY"
+		"Types"		"DOTA_UNIT_TARGET_BASIC"
+	}
+	"Duration"		"%creep_duration"
+}
+
+"ApplyMotionController"
+// For this: gfycat.com/BraveHideousGiantschnauzer -> check: bit.ly/1KWulqA
+{
+	"Caster" 		"CASTER"
+    "Target" 		"TARGET"
+    "ScriptFile"    "heroes/hero_name/ability_name.lua"
+    "HorizontalControlFunction" "TestGravityFunc"
+    "VerticalControlFunction" 	"TestGravityFunc"         
+}
+
+"AttachEffect"
+{
+	"EffectName"        "particle_name"
+	"EffectAttachType"  "follow_origin"
+	"Target"            "TARGET"
+}
+
+"Aura"          "modifier_name_aura_effect"
+"Aura_Radius"   "%radius"
+"Aura_Teams"    "DOTA_UNIT_TARGET_TEAM_FRIENDLY"
+"Aura_Types"    "DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+"Aura_Flags"    "DOTA_UNIT_TARGET_FLAG_NONE"
+"Aura_ApplyToCaster" "1"
+
+"BaseClass"             		"ability_datadriven"
+"AbilityTextureName"			"ability_name"
+"MaxLevel" 						"7"
+
+"Blink"
+{
+	"Target" 		"TARGET"
+}
+
+"CleaveAttack"
+{
+	"CleavePercent"         "%great_cleave_damage"
+	"CleaveRadius"          "%great_cleave_radius"
+	"CleaveEffect"          "particles/units/heroes/hero_sven/sven_spell_great_cleave.vpcf"
+}
+
+"ControlPointEntities"
+{
+	"TARGET"	"attach_origin"
+	"CASTER"	"attach_origin"
+}
+
+"ControlPoints"
+{
+	"01"	"%radius 0 0"
+	"02"	"0 0 0"
+}
+
+"CreateBonusAttack"
+{
+	"Target" 		"TARGET"
+}
+
+"CreateThinker"
+{
+	"ModifierName"	"modifier_name"
+	"Target" 		"TARGET"
+}
+
+"CreateThinkerWall"
+{
+	"ModifierName"		"modifier_name"
+	"Width"				"%width"
+	"Length"			"%length"
+	"Rotation"			"x y z"
+	"Target" 			"TARGET"
+}
+
+"Damage"
+{
+	"Target"		"TARGET"
+	"Type"			"DAMAGE_TYPE_MAGICAL"
+	"Damage"		"%AbilityDamage"
+}
+
+"Damage"
+{
+	"Target"		"TARGET"
+	"Type"			"DAMAGE_TYPE_MAGICAL"
+	"MinDamage"		"%min_damage"
+	"MaxDamage"		"%max_damage"
+}
+
+"DelayedAction"
+{
+	"Delay"     "%delay"
+	"Action"    
+	{
+		[ACTIONS]
+	}
+}
+
+"DestroyTrees"
+{
+	"Target" 		"TARGET"
+	"Radius"		"%radius"
+}
+
+"ExcludeTypes"	"DOTA_UNIT_TARGET_MECHANICAL"
+"ExcludeFlags"	"DOTA_UNIT_TARGET_FLAG_DEAD"
+
+"FireEffect"
+{
+	"EffectName"        "particle_name"
+	"EffectAttachType"  "follow_origin"
+	"Target"            "TARGET"
+}
+
+"FireSound"
+{
+	"EffectName"	Hero_Name.AbilityString
+	"Target" 		"TARGET"
+}
+
+"Flags"     "DOTA_UNIT_TARGET_FLAG_MAGIC_IMMUNE_ENEMIES"
+
+"Heal"
+{
+	"Target"        "TARGET"
+	"HealAmount"	"%heal"
+}
+
+"IsCasterAlive"
+{
+	"OnSuccess"
+	{
+		[ACTIONS]
+	}
+	"OnFailure"
+	{
+		[ACTIONS]
+	}
+}
+
+"Knockback"
+{
+	"Target"            "TARGET"
+	"Center" 	        "CASTER"
+	"Distance"	        "%distance"
+	"Duration"	        "%air_time"
+	"Height"	        "200"
+	"IsFixedDistance"	"1"
+	"ShouldStun"        "1"	
+}
+
+"LevelUpAbility"
+{
+	"Target" 		"CASTER"
+	"AbilityName"	"%ability_name"
+}
+
+"Lifesteal"
+{
+	"Target"            "ATTACKER"
+	"LifestealPercent"	"%lifesteal"
+}
+
+"LinearProjectile"
+{
+    "Target"      	 "POINT"
+	"EffectName"	 "particles/units/heroes/hero_mirana/mirana_spell_arrow.vpcf"
+	"MoveSpeed"		 "%projectile_speed"
+	"StartRadius"	 "%start_radius"
+	"StartPosition"  "attach_attack1"
+	"EndRadius"      "%end_radius"
+	"HasFrontalCone" "0"
+	"FixedDistance"  "%range"
+	"TargetTeams"	 "DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"TargetTypes"	 "DOTA_UNIT_TARGET_BASIC | DOTA_UNIT_TARGET_HERO"
+	"TargetFlags"	 "DOTA_UNIT_TARGET_FLAG_NONE"						
+    "ProvidesVision" "1"
+    "VisionRadius" 	 "%vision_radius"
+}
+
+"MaxTargets" "%max_targets"
+"Random"     "1"
+
+"Modifiers"
+{
+	"modifier_name"
+	{
+		"Passive"			"0"
+		"IsHidden"			"0"
+		"IsDebuff"			"0"
+
+		"EffectName"		"particle_name"
+		"EffectAttachType"	"follow_origin"
+
+		[ACTIONS]
+	}
+}
+
+"MoveUnit"
+{
+	"Target"        "TARGET"
+	"MoveToTarget"	"POINT"
+}
+
+"OnAbilityEndChannel"
+// Unit that has this modifier ends a channel (be it OnChannelFinish, Interrupted or Succeeded)
+{
+	[ACTIONS]
+}
+
+"OnAbilityExecuted"
+// Any ability (including items) was used by the unit with this modifier.
+{
+	[ACTIONS]
+}
+
+"OnAbilityStart"
+// OnSpellStart as a Modifier Event, you can Apply it on a target to trigger any Actions.
+{
+	[ACTIONS]
+}
+
+"OnAbilityPhaseStart"
+{
+	[ACTIONS]
+}
+
+"OnAbilityStart"
+// OnSpellStart as a Modifier Event, you can Apply it on a target to trigger any Actions.
+{
+	[ACTIONS]
+}
+
+"OnAttack"
+{
+	[ACTIONS]
+}
+
+"OnAttacked"
+{
+	[ACTIONS]
+}
+
+"OnAttackAllied"
+{
+	[ACTIONS]
+}
+
+"OnAttackFailed"
+{
+	[ACTIONS]
+}
+
+"OnAttackLanded"
+{
+	[ACTIONS]
+}
+
+"OnAttackStart"
+{
+	[ACTIONS]
+}
+
+"OnChannelFinish"
+{
+	[ACTIONS]
+}
+
+"OnChannelInterrupted"
+{
+	[ACTIONS]
+}
+
+"OnChannelSucceeded"
+{
+	[ACTIONS]
+}
+
+"OnCreated"
+{
+	[ACTIONS]
+}
+
+"OnDealDamage"
+{
+	[ACTIONS]
+}
+
+"OnDestroy"
+{
+	[ACTIONS]
+}
+
+"OnDestroy"
+{
+	[ACTIONS]
+}
+
+"OnEquip"
+{
+	[ACTIONS]
+}
+
+"OnHealthGained"
+// Example: Wisp Tether
+{
+	[ACTIONS]
+}
+
+"OnHealReceived"
+// Example: Oracle ult
+{
+	[ACTIONS]
+}
+
+"OnHeroKill"
+{
+	[ACTIONS]
+}
+
+"OnIntervalThink"
+{
+	[ACTIONS]
+}
+
+"OnKill"
+{
+	[ACTIONS]
+}
+
+"OnManaGained"
+// Example: Wisp Tether
+{
+	[ACTIONS]
+}
+
+"OnOrder"
+// Triggers on Move/Casting/Hold/Stop
+{
+	[ACTIONS]
+}
+
+"OnOwnerDied"
+{
+	[ACTIONS]
+}
+
+"OnOwnerSpawned"
+{
+	[ACTIONS]
+}
+
+"OnProjectileDodge"
+// The unit with this modifier dodged a projectile.
+{
+	[ACTIONS]
+}
+
+"OnProjectileFinish"
+{
+	[ACTIONS]
+}
+
+"OnProjectileHitUnit"
+{
+	"DeleteOnHit"	"1"
+	[ACTIONS]
+}
+
+"OnRespawn"
+{
+	[ACTIONS]
+}
+
+"OnSpellStart"
+{
+	[ACTIONS]
+}
+
+"OnSpentMana"
+// Example: Nether ward
+{
+	[ACTIONS]
+}
+
+"OnTakeDamage"
+{
+	// "%attack_damage" is set to the damage value after mitigation
+	[ACTIONS]
+}
+
+"OnTeleported"
+{
+	[ACTIONS]
+}
+
+"OnTeleporting"
+{
+	[ACTIONS]
+}
+
+"OnToggleOn"
+{
+	[ACTIONS]
+}
+
+"OnToggleOff"
+{
+	[ACTIONS]
+}
+
+"OnUnequip"
+{
+	[ACTIONS]
+}
+
+"OnUnitMoved"
+// Example: Bloodseeker ult
+{
+	[ACTIONS]
+}
+
+"OnUpgrade"
+{
+	[ACTIONS]
+}
+
+"Orb"
+{
+	"Priority"			"DOTA_ORB_PRIORITY_ABILITY"
+	"ProjectileName"    "tracking_projectile_name"
+	"CastAttack"		"1"
+}
+
+"OnOrbFire"
+{
+	"SpendMana"
+	{
+		"Mana"		"%AbilityManaCost"
+	}
+	
+	[ACTIONS]
+}
+
+"OnOrbImpact"
+{
+	[ACTIONS]
+}
+
+"OverrideAnimation"     "ACT_DOTA_CAST_ABILITY_1"
+
+"particle"  "particle_name"
+
+"precache"
+{
+	"particle"  "particle_name"
+	"soundfile" "soundevents/game_sounds_heroes/game_sounds_HERO.vsndevts"
+}
+
+"Properties"
+{
+	"MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT" "%bonus_movement_speed"
+    "MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE" "%bonus_attack_speed" 
+}
+
+"PseudoRandom" "DOTA_PSEUDO_RANDOM_JUGG_CRIT"
+
+"Random"
+{
+	"Chance"			"%chance"
+	"OnSuccess"
+	{
+		[ACTIONS]
+	}
+	"OnFailure"
+	{
+		[ACTIONS]
+	}
+}
+
+"RemoveModifier"
+{
+	"ModifierName"	"modifier_name"
+	"Target" 		"TARGET"
+}
+
+"Random"
+{
+	"Chance"			"%chance"
+	"OnSuccess"
+	{
+		[ACTIONS]
+	}
+	"OnFailure"
+	{
+		[ACTIONS]
+	}
+}
+
+"RemoveModifier"
+{
+	"ModifierName"	"modifier_name"
+	"Target" 		"TARGET"
+}
+
+"ReplaceUnit"
+{
+	"UnitName"      "npc_name"
+	"Target"        "TARGET"
+}
+
+"RunScript"
+{
+	"ScriptFile"	"heroes/hero_name/ability_name.lua"
+	"Function"		"AbilityName"
+}
+
+"SpendCharge" {}
+
+"SpendMana"
+{
+	"Mana"		"%AbilityManaCost"
+}
+
+"States"
+{
+	"MODIFIER_STATE_STUNNED"		"MODIFIER_STATE_VALUE_ENABLED"
+}
+
+"StatusEffectName" 		"particle_name" 	   
+"StatusEffectPriority"  "10"
+
+"Stun"
+{
+	"Duration"   "%mini_stun"
+	"Target" 	 "TARGET"
+}
+
+"Target"
+{
+	"Center"  	"TARGET"
+	"Radius" 	"%radius"
+	"Teams" 	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+}
+
+"Target"
+{
+	"Center"  	"TARGET"
+	"Line"
+	{
+		"Length" 		"1000"
+		"Thickness" 	"1000"
+	}
+	"Teams" 	"DOTA_UNIT_TARGET_TEAM_ENEMY"
+	"Types" 	"DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC"
+}
+
+"Target"
+{
+	"Center"		    "CASTER"
+	"ScriptSelectPoints"
+	{
+		"ScriptFile"    "heroes/hero_name/ability_name.lua"
+		"Function"      "GetPointsFunction"
+		"Target"		"CASTER"
+		"Count"			"2"
+	}
+}
+
+"ThinkInterval"  "1.0"
+"OnIntervalThink"
+{
+	[ACTIONS]
+}
+
+"TrackingProjectile"
+{
+	"Target"           	"TARGET"
+	"EffectName"		"particles/base_attacks/ranged_tower_bad.vpcf"
+	"Dodgeable"			"1"
+	"ProvidesVision"	"1"
+	"VisionRadius"		"%vision_radius"
+	"MoveSpeed"        	"%projectile_speed"
+	"SourceAttachment"	"DOTA_PROJECTILE_ATTACHMENT_ATTACK_1"
+}

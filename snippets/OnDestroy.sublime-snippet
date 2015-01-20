@@ -5,7 +5,7 @@
 }
 
 ]]></content>
-	<tabTrigger>OnDeath</tabTrigger>
+	<tabTrigger>OnDestroy</tabTrigger>
  	<scope>source.txt</scope>
  	<description>Modifier Removed</description>
 </snippet>

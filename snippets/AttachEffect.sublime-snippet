@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA["AttachEffect"
 {
-	"EffectName"        "${1:}"
+	"EffectName"        "${1:particle_name}"
 	"EffectAttachType"  "${2:follow_origin}"
 	"Target"            "${3:TARGET}"
 }
