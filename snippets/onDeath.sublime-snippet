@@ -3,8 +3,9 @@
 {
 	${1:[ACTIONS]}
 }
+
 ]]></content>
 	<tabTrigger>OnDeath</tabTrigger>
  	<scope>source.txt</scope>
- 	<description>Do something when modifier owner dies</description>
+ 	<description>modf owner dies</description>
 </snippet>

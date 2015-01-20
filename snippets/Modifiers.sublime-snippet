@@ -1,31 +1,23 @@
 <snippet>
-	<content><![CDATA["Modifiers"    				// Can be used to create custom modifier. 
-{  							// There are many snippets that can be expanded in to the modifiers. 
-	"${1:modifier_bro}"   	// This should be the name of your modifier
+	<content><![CDATA["Modifiers"
+{
+	"modifier_${1:name}"
 	{
-		// Refer to http://hex6.se/dota/modifier_functions.txt to see what snippets can be expanded in here.
-		"IsDebuff"					"${2:true}"
-		"IsPurgable"				"${3:false}"
-		"IsStunDebuff"				"${4:true}"
-		"IsHidden"					"${5:false}"
-		//"AllowIllusionDuplicate"	"${6:false}"
-		//"EffectName"				"${7:effect_name}"
-		//"EffectAttachType"			"${8:attach_hitloc}"
-		//"OverrideAnimation"			"${9:false}"
-		//"ThinkInterval"				"${10:10}"
-		//"Duration"					"${11:20}"
-		//"Aura"						"${12:true}"
-		//"Aura_Teams"					"${13:}"
-		//"Aura_Radius"					"${14:300}"
-		//"Aura_Types"					"${15:}"
-		//"Aura_Flags"  				"${16:}"
-		//"Aura_ApplyToCaster"    		"${17:0}"
+		"Passive"			"${2:0}"
+		"IsHidden"			"${3:0}"
+		"IsDebuff"			"${4:0}"
+
+		"EffectName"		"${6:particle_name}"
+		"EffectAttachType"	"${7:follow_origin}"
+
+		${8:[ACTIONS]}
 	}
 }
+
 ]]></content>
 	<tabTrigger>Modifiers</tabTrigger>
  	<scope>source.txt</scope>
- 	<description>Use to create custom modifiers</description>
+ 	<description>Create custom modifiers</description>
 </snippet>
 
 

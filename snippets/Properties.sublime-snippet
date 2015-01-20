@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA["Properties"
 {
-	// You may use "modifierProperty" completions within quotes here. Below is an example
-	"${1:MODIFIER_PROPERTY_ABSORB_SPELL}"
+	"${1:MODIFIER_PROPERTY_ATTACKSPEED_BONUS_CONSTANT}" "%${2:bonus_movement_speed}"
+    "${3:MODIFIER_PROPERTY_MOVESPEED_BONUS_PERCENTAGE}" "%${4:bonus_attack_speed}" 
 }
+
 ]]></content>
 	<tabTrigger>Properties</tabTrigger>
  	<scope>source.txt</scope>

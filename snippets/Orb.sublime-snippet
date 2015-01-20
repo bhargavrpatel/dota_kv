@@ -1,13 +1,31 @@
 <snippet>
-	<content><![CDATA["Orb"
+	<content><![CDATA[
+"Orb"
 {
-	"Priority"	${1:[ORB PRIORITY]}    // You may find all the possible priorities by using "orbPrio" completions
-	"Label"		${2:[ORB LABEL]}	// You may find all the possible priorities by using "orbLabel" completions
+	"Priority"			"DOTA_ORB_PRIORITY_ABILITY"
+	"ProjectileName"    "${1:tracking_projectile_name}"
+	"CastAttack"		"1"
 }
+
+"OnOrbFire"
+{
+	"SpendMana"
+	{
+		"Mana"		"%${2:AbilityManaCost}"
+	}
+	
+	${3:[ACTIONS]}
+}
+
+"OnOrbImpact"
+{
+	${4:[ACTIONS]}
+}
+
 ]]></content>
 	<tabTrigger>Orb</tabTrigger>
  	<scope>source.txt</scope>
- 	<description>Orb Modifier</description>
+ 	<description>Modifier Event+Actions</description>
 </snippet>
 
 
