@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["OnDestroy"
+{
+	${1:[ACTIONS]}
+}
+
+]]></content>
+	<tabTrigger>OnDeath</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Modifier Removed</description>
+</snippet>

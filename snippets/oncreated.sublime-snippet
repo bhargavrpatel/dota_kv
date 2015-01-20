@@ -3,8 +3,9 @@
 {
 	${1:[ACTIONS]}
 }
+
 ]]></content>
 	<tabTrigger>OnCreated</tabTrigger>
  	<scope>source.txt</scope>
- 	<description>Apply someting to this modifier when its created</description>
+ 	<description>Modifier Created</description>
 </snippet>

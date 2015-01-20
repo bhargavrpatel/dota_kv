@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["OnAttacked"
+{
+	${1:[ACTIONS]}
+}
+
+]]></content>
+	<tabTrigger>OnAttacked</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>By ATTACKER</description>
+</snippet>

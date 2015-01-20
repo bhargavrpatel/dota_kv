@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["OnDealDamage"
+{
+	${1:[ACTIONS]}
+}
+
+]]></content>
+	<tabTrigger>OnDealDamage</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Modifier owner dealt</description>
+</snippet>

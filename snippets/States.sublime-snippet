@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA["States"
 {
-	${3:// Sub-keys can be found by using "modifierState" constant completions
-	// Sub-values can be found by using "modifierStateValue" constant completions}
-	${1:MODIFIER_STATE_MUTED}				${2:MODIFIER_VALUE}
-	${4:}
+	"${1:MODIFIER_STATE_STUNNED}"		"${2:MODIFIER_STATE_VALUE_ENABLED}"
 }
+
 ]]></content>
 	<tabTrigger>States</tabTrigger>
  	<scope>source.txt</scope>

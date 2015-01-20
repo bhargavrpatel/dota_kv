@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA["OnAttackFailed"
+{
+	${1:[ACTIONS]}
+}
+
+]]></content>
+	<tabTrigger>OnAttackFailed</tabTrigger>
+ 	<scope>source.txt</scope>
+ 	<description>Miss</description>
+</snippet>
