@@ -1,7 +1,11 @@
-#Dota 2 KV Package
+#Dota 2 KV Package 1.0.3
 Unlike my [Lua Snippets](https://github.com/bhargavrpatel/Dota-2-Sublime-Packages) project, this is a *Package*. The package consists of custom syntax highlighting and Snippets. The Snippets consist of all the KV pairs, modifiers, and constants. 
 
 ***
+
+## Contributors
+* Bhargav Patel - Creator and maintainer until release 1.0.3
+* Martin Noya - He is responsible for the current (V1.0.3) update
 
 ## Installation
 Chose either of the methods listed below. I suggest everyone use **Method 1**
