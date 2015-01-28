@@ -1,6 +1,5 @@
 <snippet>
-	<content><![CDATA[
-"ApplyModifier"
+	<content><![CDATA["ApplyModifier"
 {
 	"ModifierName"	"modifier_${1:name}"
 	"Target"
@@ -23,7 +22,6 @@
 	}
 	"Duration"		"%${4:creep_duration}"
 }
-
 ]]></content>
 	<tabTrigger>ApplyModifierHero-Creep</tabTrigger>
  	<scope>source.txt</scope>

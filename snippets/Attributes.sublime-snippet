@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
-"AllowIllusionDuplicate"     "${1:1}"
+"Attributes"		"MODIFIER_ATTRIBUTE_${1:MULTIPLE}"
 ]]></content>
-	<tabTrigger>AllowIllusionDuplicate</tabTrigger>
+	<tabTrigger>Attributes</tabTrigger>
  	<scope>source.txt</scope>
  	<description>in a modifier</description>
 </snippet>

@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnChannelSucceeded</tabTrigger>
  	<scope>source.txt</scope>

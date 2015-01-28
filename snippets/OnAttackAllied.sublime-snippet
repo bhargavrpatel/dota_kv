@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnAttackAllied</tabTrigger>
  	<scope>source.txt</scope>

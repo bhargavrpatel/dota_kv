@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnUpgrade</tabTrigger>
  	<scope>source.txt</scope>

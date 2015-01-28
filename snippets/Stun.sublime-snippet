@@ -4,7 +4,6 @@
 	"Duration"   "%${1:mini_stun}"
 	"Target" 	 "${2:TARGET}"
 }
-
 ]]></content>
 	<tabTrigger>Stun</tabTrigger>
  	<scope>source.txt</scope>

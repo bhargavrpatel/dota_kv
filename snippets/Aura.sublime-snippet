@@ -6,7 +6,6 @@
 "Aura_Types"    "${4:DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC}"
 "Aura_Flags"    "${5:DOTA_UNIT_TARGET_FLAG_NONE}"
 "Aura_ApplyToCaster" "${6:1}"
-
 ]]></content>
 	<tabTrigger>Aura</tabTrigger>
  	<scope>source.txt</scope>

@@ -4,7 +4,6 @@
 	"EffectName"	${1:Hero_Name.AbilityString}
 	"Target" 		"${2:TARGET}"
 }
-
 ]]></content>
 	<tabTrigger>FireSound</tabTrigger>
  	<scope>source.txt</scope>

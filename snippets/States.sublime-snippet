@@ -3,7 +3,6 @@
 {
 	"${1:MODIFIER_STATE_STUNNED}"		"${2:MODIFIER_STATE_VALUE_ENABLED}"
 }
-
 ]]></content>
 	<tabTrigger>States</tabTrigger>
  	<scope>source.txt</scope>

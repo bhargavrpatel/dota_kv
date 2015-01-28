@@ -10,7 +10,6 @@
 		"Count"			"${5:2}"
 	}
 }
-
 ]]></content>
 	<tabTrigger>Target ScriptSelectPoints</tabTrigger>
  	<scope>source.txt</scope>

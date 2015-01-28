@@ -2,7 +2,6 @@
 	<content><![CDATA[
 "ExcludeTypes"	"${8:DOTA_UNIT_TARGET_MECHANICAL}"
 "ExcludeFlags"	"${9:DOTA_UNIT_TARGET_FLAG_DEAD}"
-
 ]]></content>
 	<tabTrigger>Exclude</tabTrigger>
  	<scope>source.txt</scope>

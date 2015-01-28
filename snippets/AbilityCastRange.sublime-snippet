@@ -3,7 +3,6 @@
 "AbilityCastRange"				"${1:700}"
 "AbilityCastPoint"				"${2:0.3}"
 "AbilityCastAnimation"			"ACT_DOTA_${3:CAST_ABILITY_1}"
-
 ]]></content>
 	<tabTrigger>AbilityCastRange</tabTrigger>
  	<scope>source.txt</scope>

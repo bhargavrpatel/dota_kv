@@ -4,7 +4,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnOrder</tabTrigger>
  	<scope>source.txt</scope>

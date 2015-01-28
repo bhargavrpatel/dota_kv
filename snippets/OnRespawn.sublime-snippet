@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnRespawn</tabTrigger>
  	<scope>source.txt</scope>

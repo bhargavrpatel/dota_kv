@@ -4,7 +4,6 @@
 {
 	${2:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>ThinkInterval</tabTrigger>
  	<scope>source.txt</scope>

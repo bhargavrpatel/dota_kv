@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA["SpendCharge" {}
-
 ]]></content>
 	<tabTrigger>SpendCharge</tabTrigger>
  	<scope>source.txt</scope>

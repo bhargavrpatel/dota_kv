@@ -5,7 +5,6 @@
 	"Target" 		"${2:TARGET}"
 	"Duration"		"%${3:duration}"
 }
-
 ]]></content>
 	<tabTrigger>ApplyModifier</tabTrigger>
  	<scope>source.txt</scope>

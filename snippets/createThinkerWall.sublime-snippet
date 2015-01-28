@@ -7,7 +7,6 @@
 	"Rotation"			"${4:x} ${5:y} ${6:z}"
 	"Target" 			"${7:TARGET}"
 }
-
 ]]></content>
 	<tabTrigger>CreateThinkerWall</tabTrigger>
  	<scope>source.txt</scope>

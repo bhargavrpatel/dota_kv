@@ -10,7 +10,6 @@
 	"Teams" 	"${4:DOTA_UNIT_TARGET_TEAM_ENEMY}"
 	"Types" 	"${5:DOTA_UNIT_TARGET_HERO | DOTA_UNIT_TARGET_BASIC}"
 }
-
 ]]></content>
 	<tabTrigger>Target Line</tabTrigger>
  	<scope>source.txt</scope>

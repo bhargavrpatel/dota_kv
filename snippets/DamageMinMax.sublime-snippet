@@ -6,7 +6,6 @@
 	"MinDamage"		"%${3:min_damage}"
 	"MaxDamage"		"%${4:max_damage}"
 }
-
 ]]></content>
 	<tabTrigger>Damage Min/Max</tabTrigger>
  	<scope>source.txt</scope>

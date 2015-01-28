@@ -21,7 +21,6 @@
 		${5:[ACTIONS]}
 	}
 }
-
 ]]></content>
 	<tabTrigger>SpawnUnit</tabTrigger>
  	<scope>source.txt</scope>

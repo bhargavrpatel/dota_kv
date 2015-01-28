@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnUnequip</tabTrigger>
  	<scope>source.txt</scope>

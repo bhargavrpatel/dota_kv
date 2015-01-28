@@ -8,7 +8,6 @@
     "HorizontalControlFunction" "${4:TestGravityFunc}"
     "VerticalControlFunction" 	"${4:TestGravityFunc}"         
 }
-
 ]]></content>
 	<tabTrigger>ApplyMotionController</tabTrigger>
  	<scope>source.txt</scope>

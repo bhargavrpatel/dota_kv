@@ -4,7 +4,6 @@
 	"particle"  "${1:particle_name}"
 	"soundfile" "soundevents/game_sounds_heroes/game_sounds_${2:HERO}.vsndevts"
 }
-
 ]]></content>
 	<tabTrigger>precache</tabTrigger>
  	<scope>source.txt</scope>

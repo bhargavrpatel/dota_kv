@@ -15,7 +15,6 @@
     "ProvidesVision" "${12:1}"
     "VisionRadius" 	 "%${13:vision_radius}"
 }
-
 ]]></content>
 	<tabTrigger>LinearProjectile</tabTrigger>
  	<scope>source.txt</scope>
