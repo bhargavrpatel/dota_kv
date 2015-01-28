@@ -9,7 +9,6 @@
 	"IsFixedDistance"	"1"
 	"ShouldStun"        "1"	
 }
-
 ]]></content>
 	<tabTrigger>Knockback</tabTrigger>
  	<scope>source.txt</scope>

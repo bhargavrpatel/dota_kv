@@ -7,7 +7,6 @@
 		${2:[ACTIONS]}
 	}
 }
-
 ]]></content>
 	<tabTrigger>DelayedAction</tabTrigger>
  	<scope>source.txt</scope>

@@ -3,7 +3,6 @@
 {
 	"Mana"		"%${1:AbilityManaCost}"
 }
-
 ]]></content>
 	<tabTrigger>SpendMana</tabTrigger>
  	<scope>source.txt</scope>

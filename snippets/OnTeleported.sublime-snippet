@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnTeleported</tabTrigger>
  	<scope>source.txt</scope>

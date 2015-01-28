@@ -3,7 +3,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnAbilityPhaseStart</tabTrigger>
  	<scope>source.txt</scope>

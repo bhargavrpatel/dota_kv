@@ -4,7 +4,6 @@
 	"Target"        "${1:TARGET}"
 	"MoveToTarget"	"${2:POINT}"
 }
-
 ]]></content>
 	<tabTrigger>MoveUnit</tabTrigger>
  	<scope>source.txt</scope>

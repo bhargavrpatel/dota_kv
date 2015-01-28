@@ -9,7 +9,6 @@
 	"MoveSpeed"        	"${6:%projectile_speed}"
 	"SourceAttachment"	"${7:DOTA_PROJECTILE_ATTACHMENT_ATTACK_1"}
 }
-
 ]]></content>
 	<tabTrigger>TrackingProjectile</tabTrigger>
  	<scope>source.txt</scope>

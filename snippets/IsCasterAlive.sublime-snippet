@@ -10,7 +10,6 @@
 		${2:[ACTIONS]}
 	}
 }
-
 ]]></content>
 	<tabTrigger>IsCasterAlive</tabTrigger>
  	<scope>source.txt</scope>

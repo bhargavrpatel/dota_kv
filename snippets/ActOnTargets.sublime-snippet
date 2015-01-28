@@ -14,7 +14,6 @@
 		${5:[ACTIONS]}
 	}
 }
-
 ]]></content>
 	<tabTrigger>ActOnTargets</tabTrigger>
  	<scope>source.txt</scope>

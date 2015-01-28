@@ -4,7 +4,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnHealthGained</tabTrigger>
  	<scope>source.txt</scope>

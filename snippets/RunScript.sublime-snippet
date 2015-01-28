@@ -4,7 +4,6 @@
 	"ScriptFile"	"${1:heroes/hero_name/ability_name.lua}"
 	"Function"		"${2:AbilityName}"
 }
-
 ]]></content>
 	<tabTrigger>RunScript</tabTrigger>
  	<scope>source.txt</scope>

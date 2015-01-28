@@ -4,7 +4,6 @@
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnAbilityStart</tabTrigger>
  	<scope>source.txt</scope>

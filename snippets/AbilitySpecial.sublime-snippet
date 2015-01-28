@@ -12,7 +12,6 @@
 		"${3:duration}"		"${4:3.0 4.0 5.0}"
 	}
 }
-
 ]]></content>
 	<tabTrigger>AbilitySpecial</tabTrigger>
  	<scope>source.txt</scope>

@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 "OverrideAnimation"     "${1:ACT_DOTA_CAST_ABILITY_1}"
-
 ]]></content>
 	<tabTrigger>OverrideAnimation</tabTrigger>
  	<scope>source.txt</scope>

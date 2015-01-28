@@ -4,7 +4,6 @@
 	"Target"            "${1:ATTACKER}"
 	"LifestealPercent"	"%${2:lifesteal}"
 }
-
 ]]></content>
 	<tabTrigger>Lifesteal</tabTrigger>
  	<scope>source.txt</scope>

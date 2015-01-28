@@ -4,7 +4,6 @@
 	"Target" 		"${1:TARGET}"
 	"Radius"		"%${2:radius}"
 }
-
 ]]></content>
 	<tabTrigger>DestroyTrees</tabTrigger>
  	<scope>source.txt</scope>

@@ -1,6 +1,5 @@
 <snippet>
 	<content><![CDATA["particle"  "${1:particle_name}"
-
 ]]></content>
 	<tabTrigger>particle</tabTrigger>
  	<scope>source.txt</scope>

@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA["OnDealDamage"
+// "%attack_damage" is set to the damage value after mitigation
 {
 	${1:[ACTIONS]}
 }
-
 ]]></content>
 	<tabTrigger>OnDealDamage</tabTrigger>
  	<scope>source.txt</scope>
