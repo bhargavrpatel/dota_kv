@@ -22,7 +22,7 @@
 			<key>comment</key>
 			<string>Single line comment</string>
 			<key>match</key>
-			<string>(^|(\t|\s?)+)//.*</string>
+			<string>$//.*</string>
 			<key>name</key>
 			<string>comment.line.txt</string>
 		</dict>
