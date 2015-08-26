@@ -5,9 +5,10 @@
 	<key>fileTypes</key>
 	<array>
 		<string>kv</string>
+		<string>txt</string>
 	</array>
 	<key>name</key>
-	<string>Dota KV</string>
+	<string>Dota 2 KV</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -20,37 +21,19 @@
 		</dict>
 		<dict>
 			<key>comment</key>
+			<string>Ability Special Variable</string>
+			<key>match</key>
+			<string>%[^\s]*</string>
+			<key>name</key>
+			<string>variable.parameter</string>
+		</dict>
+		<dict>
+			<key>comment</key>
 			<string>A group of other sections or KV pairs</string>
 			<key>match</key>
 			<string>^\s*(?!".*?"\s*".*?")".*?"</string>
 			<key>name</key>
 			<string>support.class</string>
-		</dict>
-		<dict>
-			<key>captures</key>
-			<dict>
-				<key>1</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted.txt</string>
-				</dict>
-				<key>2</key>
-				<dict>
-					<key>name</key>
-					<string>variable.parameter</string>
-				</dict>
-				<key>3</key>
-				<dict>
-					<key>name</key>
-					<string>string.quoted.txt</string>
-				</dict>
-			</dict>
-			<key>comment</key>
-			<string>Ability Special Variable</string>
-			<key>match</key>
-			<string>("\s*)%[^\s]*(\s*")</string>
-			<key>name</key>
-			<string>variable.parameter</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -75,7 +58,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>source.kv</string>
+	<string>source.txt</string>
 	<key>uuid</key>
 	<string>04c4bbdb-39e5-49da-be05-91103efa01e4</string>
 </dict>
