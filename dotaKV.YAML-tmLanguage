@@ -1,8 +1,8 @@
 # [PackageDev] target_format: plist, ext: tmLanguage
 ---
 name: Dota 2 KV
-scopeName: source.kv
-fileTypes: [kv]
+scopeName: source.txt
+fileTypes: [kv, txt]
 uuid: 04c4bbdb-39e5-49da-be05-91103efa01e4
 
 patterns:
