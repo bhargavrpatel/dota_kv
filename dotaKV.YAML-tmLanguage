@@ -1,0 +1,26 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: Dota 2 KV
+scopeName: source.kv
+fileTypes: [kv]
+uuid: 04c4bbdb-39e5-49da-be05-91103efa01e4
+
+patterns:
+- comment: A single line comment
+  name: comment.line.txt
+  match: '//.*'
+
+- comment: Ability Special Variable
+  name: variable.parameter
+  match: '%[^\s]*'
+
+- comment: A group of other sections or KV pairs
+  name: support.class
+  match: '^\s*(?!".*?"\s*".*?")".*?"'
+
+- comment: A key value pair
+  name: entity.name.tag.txt
+  match: '(".*?")\s*(".*?")'
+  captures:
+    '1': {name: entity.name.tag.txt}
+    '2': {name: string.quoted.txt}
