@@ -7,7 +7,7 @@
 		<string>kv</string>
 	</array>
 	<key>name</key>
-	<string>Dota 2 KV</string>
+	<string>Dota KV</string>
 	<key>patterns</key>
 	<array>
 		<dict>
@@ -20,19 +20,37 @@
 		</dict>
 		<dict>
 			<key>comment</key>
-			<string>Ability Special Variable</string>
-			<key>match</key>
-			<string>%[^\s]*</string>
-			<key>name</key>
-			<string>variable.parameter</string>
-		</dict>
-		<dict>
-			<key>comment</key>
 			<string>A group of other sections or KV pairs</string>
 			<key>match</key>
 			<string>^\s*(?!".*?"\s*".*?")".*?"</string>
 			<key>name</key>
 			<string>support.class</string>
+		</dict>
+		<dict>
+			<key>captures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.txt</string>
+				</dict>
+				<key>2</key>
+				<dict>
+					<key>name</key>
+					<string>variable.parameter</string>
+				</dict>
+				<key>3</key>
+				<dict>
+					<key>name</key>
+					<string>string.quoted.txt</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Ability Special Variable</string>
+			<key>match</key>
+			<string>("\s*)%[^\s]*(\s*")</string>
+			<key>name</key>
+			<string>variable.parameter</string>
 		</dict>
 		<dict>
 			<key>captures</key>
@@ -51,7 +69,7 @@
 			<key>comment</key>
 			<string>A key value pair</string>
 			<key>match</key>
-			<string>(".*?")\s*(?:(".*?"))</string>
+			<string>(".*?")\s*(".*?")</string>
 			<key>name</key>
 			<string>entity.name.tag.txt</string>
 		</dict>
