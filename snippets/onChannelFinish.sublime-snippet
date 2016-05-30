@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnChannelFinish"
+    <content><![CDATA["OnChannelFinish"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnChannelFinish</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Fires in any case</description>
+    <tabTrigger>OnChannelFinish</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Fires in any case</description>
 </snippet>

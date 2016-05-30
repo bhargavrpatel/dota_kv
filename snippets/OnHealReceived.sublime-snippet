@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA["OnHealReceived"
+    <content><![CDATA["OnHealReceived"
 // Example: Oracle ult
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnHealReceived</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>modifier event</description>
+    <tabTrigger>OnHealReceived</tabTrigger>
+    <scope>source.txt</scope>
+    <description>modifier event</description>
 </snippet>

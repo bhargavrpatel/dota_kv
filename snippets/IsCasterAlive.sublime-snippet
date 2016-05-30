@@ -1,17 +1,17 @@
 <snippet>
-	<content><![CDATA["IsCasterAlive"
+    <content><![CDATA["IsCasterAlive"
 {
-	"OnSuccess"
-	{
-		${1:[ACTIONS]}
-	}
-	"OnFailure"
-	{
-		${2:[ACTIONS]}
-	}
+    "OnSuccess"
+    {
+        ${1:[ACTIONS]}
+    }
+    "OnFailure"
+    {
+        ${2:[ACTIONS]}
+    }
 }
 ]]></content>
-	<tabTrigger>IsCasterAlive</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Boolean</description>
+    <tabTrigger>IsCasterAlive</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Boolean</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnProjectileFinish"
+    <content><![CDATA["OnProjectileFinish"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnProjectileFinish</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Fix Distance</description>
+    <tabTrigger>OnProjectileFinish</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Fix Distance</description>
 </snippet>

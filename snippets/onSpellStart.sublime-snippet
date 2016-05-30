@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnSpellStart"
+    <content><![CDATA["OnSpellStart"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnSpellStart</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Finished Cast Point</description>
+    <tabTrigger>OnSpellStart</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Finished Cast Point</description>
 </snippet>

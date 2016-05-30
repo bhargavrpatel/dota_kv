@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA["OnSpentMana"
+    <content><![CDATA["OnSpentMana"
 // Example: Nether ward
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnSpentMana</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>modifier event</description>
+    <tabTrigger>OnSpentMana</tabTrigger>
+    <scope>source.txt</scope>
+    <description>modifier event</description>
 </snippet>

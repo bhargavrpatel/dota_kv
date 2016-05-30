@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA["DestroyTrees"
+    <content><![CDATA["DestroyTrees"
 {
-	"Target" 		"${1:TARGET}"
-	"Radius"		"%${2:radius}"
+    "Target"    "${1:TARGET}"
+    "Radius"    "%${2:radius}"
 }
 ]]></content>
-	<tabTrigger>DestroyTrees</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>in Radius on Target</description>
+    <tabTrigger>DestroyTrees</tabTrigger>
+    <scope>source.txt</scope>
+    <description>in Radius on Target</description>
 </snippet>

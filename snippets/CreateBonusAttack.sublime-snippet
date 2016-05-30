@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["CreateBonusAttack"
+    <content><![CDATA["CreateBonusAttack"
 {
-	"Target" 		"${1:TARGET}"
+    "Target"         "${1:TARGET}"
 }
 ]]></content>
-	<tabTrigger>CreateBonusAttack</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Extra hit</description>
+    <tabTrigger>CreateBonusAttack</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Extra hit</description>
 </snippet>

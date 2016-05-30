@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnAbilityPhaseStart"
+    <content><![CDATA["OnAbilityPhaseStart"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnAbilityPhaseStart</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Pre CastPoint</description>
+    <tabTrigger>OnAbilityPhaseStart</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Pre CastPoint</description>
 </snippet>

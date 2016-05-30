@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnDeath"
+    <content><![CDATA["OnDeath"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnDeath</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>modf owner dies</description>
+    <tabTrigger>OnDeath</tabTrigger>
+    <scope>source.txt</scope>
+    <description>modf owner dies</description>
 </snippet>

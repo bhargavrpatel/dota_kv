@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnTeleporting"
+    <content><![CDATA["OnTeleporting"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnTeleporting</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>modifier event</description>
+    <tabTrigger>OnTeleporting</tabTrigger>
+    <scope>source.txt</scope>
+    <description>modifier event</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnDestroy"
+    <content><![CDATA["OnDestroy"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnDestroy</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Modifier Removed</description>
+    <tabTrigger>OnDestroy</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Modifier Removed</description>
 </snippet>

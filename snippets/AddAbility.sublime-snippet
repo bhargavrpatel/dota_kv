@@ -1,11 +1,11 @@
 <snippet>
-	<content><![CDATA["AddAbility"
+    <content><![CDATA["AddAbility"
 {
-	"Target" 		"${1:CASTER}"
-	"AbilityName"	"%${2:ability_name}"
+    "Target"         "${1:CASTER}"
+    "AbilityName"    "%${2:ability_name}"
 }
 ]]></content>
-	<tabTrigger>AddAbility</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>to a Target</description>
+    <tabTrigger>AddAbility</tabTrigger>
+    <scope>source.txt</scope>
+    <description>to a Target</description>
 </snippet>

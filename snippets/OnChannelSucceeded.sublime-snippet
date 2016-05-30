@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnChannelSucceeded"
+    <content><![CDATA["OnChannelSucceeded"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnChannelSucceeded</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>Completed</description>
+    <tabTrigger>OnChannelSucceeded</tabTrigger>
+    <scope>source.txt</scope>
+    <description>Completed</description>
 </snippet>

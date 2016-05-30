@@ -1,10 +1,10 @@
 <snippet>
-	<content><![CDATA["OnHeroKilled"
+    <content><![CDATA["OnHeroKilled"
 {
-	${1:[ACTIONS]}
+    ${1:[ACTIONS]}
 }
 ]]></content>
-	<tabTrigger>OnHeroKilled</tabTrigger>
- 	<scope>source.txt</scope>
- 	<description>modf owner kill hero</description>
+    <tabTrigger>OnHeroKilled</tabTrigger>
+    <scope>source.txt</scope>
+    <description>modf owner kill hero</description>
 </snippet>
