@@ -4,12 +4,12 @@
     "01"
     {
         "var_type"          "FIELD_INTEGER"
-        "${1:value}"        "${2:900}"
+        "${1:value}"             "${2:900}"
     }
     "02"
     {
         "var_type"          "FIELD_FLOAT"
-        "${3:duration}"     "${4:3.0 4.0 5.0}"
+        "${3:duration}"          "${4:3.0 4.0 5.0}"
     }
 }
 ]]></content>
